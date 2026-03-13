@@ -208,19 +208,6 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 flex-1 flex flex-col justify-center">
-          {/* Header */}
-          <div className="flex justify-center mb-6 sm:mb-8 animate-fade-in relative z-10 pt-2 sm:pt-4">
-            <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md px-4 sm:px-8 py-3 sm:py-4 rounded-2xl sm:rounded-3xl shadow-xl border border-white/50 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300">
-              <div className="relative flex h-2.5 w-2.5 sm:h-3 sm:w-3">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2.5 w-2.5 sm:h-3 sm:w-3 bg-primary"></span>
-              </div>
-              <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent tracking-tight">
-                BNI Auto Play Indonesia Raya
-              </h1>
-            </div>
-          </div>
-
           {/* Main Content Grid */}
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start mb-12 sm:mb-16">
             {/* Left Column - Clock & Controls */}

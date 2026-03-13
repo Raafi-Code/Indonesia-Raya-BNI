@@ -41,7 +41,7 @@ export default function RealTimeClock({ className = "" }: RealTimeClockProps) {
       <div className="text-7xl md:text-8xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4 tracking-tight font-mono">
         {currentTime || "00:00:00"}
       </div>
-      <div className="text-lg md:text-xl text-gray-600 font-medium">
+      <div className="text-lg md:text-xl text-gray-700 dark:text-gray-200 font-medium">
         {currentDate || "Loading..."}
       </div>
     </div>
