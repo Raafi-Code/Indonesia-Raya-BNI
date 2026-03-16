@@ -22,9 +22,9 @@ export default function Navbar() {
         <div className="flex items-center z-10 pl-2 lg:pl-3 w-auto md:w-1/3">
           {/* Logo Pill */}
           <div className="flex items-center gap-2 sm:gap-3 bg-emerald-50 dark:bg-emerald-900/20 px-3 py-2 sm:px-4 sm:py-2.5 rounded-full border border-emerald-100 dark:border-emerald-800/30 w-max">
-            <img src="/logo bni.png" alt="BNI Logo" className="h-5 sm:h-6 w-auto object-contain" />
+            <img src="/ryurex-logo.png" alt="Ryurex Logo" className="h-5 sm:h-6 w-auto object-contain" />
             <span className="font-bold text-xs sm:text-sm text-emerald-900 dark:text-emerald-100 whitespace-nowrap hidden sm:block">
-              KCU Banjarmasin
+              Ryurex Corporation
             </span>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Navbar() {
             <span className="relative inline-flex rounded-full h-2 sm:h-2.5 w-2 sm:w-2.5 bg-orange-500"></span>
           </div>
           <span className="text-[11px] sm:text-sm font-bold text-gray-800 dark:text-gray-100 whitespace-nowrap">
-            BNI Auto Play Indonesia Raya
+            Auto Play Indonesia Raya
           </span>
         </div>
 

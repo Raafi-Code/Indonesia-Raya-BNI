@@ -404,7 +404,7 @@ export default function Home() {
         {/* Footer */}
         <div className="absolute bottom-6 left-0 right-0 z-10 w-full px-4 sm:px-6">
           <div className="text-center text-gray-600 dark:text-gray-400 text-xs sm:text-sm flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-3 bg-white/60 dark:bg-gray-900/60 backdrop-blur-md max-w-fit mx-auto px-4 sm:px-6 py-2 sm:py-2.5 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-            <p className="font-medium tracking-wide">&copy; 2026 BLH - BNI KCU Banjarmasin</p>
+            <p className="font-medium tracking-wide">&copy; 2026 BLH BMS</p>
             <span className="hidden md:inline-block w-1.5 h-1.5 rounded-full bg-gray-300 dark:bg-gray-700"></span>
             <p className="flex items-center gap-1">
               Developed by{" "}

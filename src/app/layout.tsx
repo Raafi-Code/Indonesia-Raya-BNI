@@ -3,11 +3,11 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Indonesia Raya | BNI",
+  title: "Indonesia Raya | Ryurex",
   description: "Auto play music at scheduled time",
   icons: {
     icon: [
-      { url: "/bnitabbar.png", sizes: "any" },
+      { url: "/ryurex-logo.png", sizes: "any" },
     ],
   },
 };
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="id" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/bnitabbar.png" sizes="any" />
+        <link rel="icon" href="/ryurex-logo.png" sizes="any" />
       </head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
